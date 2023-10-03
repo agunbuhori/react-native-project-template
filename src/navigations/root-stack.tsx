@@ -5,10 +5,8 @@ import {
   DefaultTheme,
   NavigationContainer,
 } from '@react-navigation/native';
-import {
-  NativeStackScreenProps,
-  createNativeStackNavigator,
-} from '@react-navigation/native-stack';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import type {NativeStackScreenProps} from '@react-navigation/native-stack';
 import useTheme from '@/hooks/useTheme';
 import useAuth from '@/hooks/useAuth';
 import GuestScreen from '@/screens/GuestScreen';
